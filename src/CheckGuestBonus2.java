@@ -17,7 +17,6 @@ public class CheckGuestBonus2 {
          int indexList = -1;
          int index = 0;
          while (index < guestStar.length) {
-            index++;
             if(guestStar[index].equals(userName)){
                 indexList = index;
             }
@@ -27,6 +26,7 @@ public class CheckGuestBonus2 {
                 System.out.println("Sei in lista");
                 break;
             }
+            index++;
             }
             
          }
