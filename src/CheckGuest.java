@@ -14,9 +14,10 @@ public class CheckGuest {
         String userName = userText.toLowerCase();
         
         for(int index = 0; index < guestStar.length; index++){
-            String list = guestStar[index];
+
+             String list = guestStar[index];
             if(!list.equals(userName)){
-                System.out.println("Non sei nella lista");
+                System.out.println("Non nella lista");
             }else{
                 System.out.println("Sei nella lista");
                 break;

@@ -13,13 +13,14 @@ public class CheckGuestBonus {
 
         int index = 0;
         while(index < guestStar.length){
+            index++;
             if(!guestStar[index].equals(userName)){
                 System.out.println("Non sei in lista");
             }else{
-                System.out.println("Sei in lista");
+                System.out.println("Sei nella lista");
                 break;
             }
-            index++;
+            
         }
 
         
