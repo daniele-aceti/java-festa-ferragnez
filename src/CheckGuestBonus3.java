@@ -33,6 +33,22 @@ public class CheckGuestBonus3 {
         }
 
 
+        //ricerca con un booleano 
+        boolean indexName2 = false;
+        //ciclo l'array 
+        for(int index = 0; index < guestStar.length; index++){
+            if(guestStar[index].equals(userName)){
+                indexName2= true;
+            }
+        }
+        //verifico 
+        if( indexName2){
+             System.out.println("Sei in lista");
+        }else{
+            System.out.println("Non sei in lista");
+        }
+
+
 
 
 
